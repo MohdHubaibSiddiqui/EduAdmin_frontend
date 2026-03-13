@@ -5,7 +5,7 @@ import axios from "axios";
 // baseURL: "https://eduadmin-backend-laqn.onrender.com/api",
 // });
 const API = axios.create({
-  baseURL: "https://eduadmin-backend-laqn.onrender.com/api",
+  baseURL: "https://eduadmin-backend-1aqn.onrender.com/api",
 });
 
 API.interceptors.request.use((config) => {
